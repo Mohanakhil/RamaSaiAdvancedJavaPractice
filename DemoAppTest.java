@@ -1,5 +1,3 @@
-package RamaSaiAdvancedJavaPractice.JDBC;
-
 public class DemoAppTest{
     static{
         System.out.println("inside static block");
@@ -13,8 +11,8 @@ public static void main(String[] args)
     System.out.println("Demo app main");
     System.out.println("======");
     try {
-        Class.forName("RamaSaiAdvancedJavaPractice.JDBC.Demo");
-        Class.forName("RamaSaiAdvancedJavaPractice.JDBC.Test");
+        Class.forName("Demo");
+        Class.forName("Test");
     } catch (ClassNotFoundException e) {
         throw new RuntimeException(e);
     }
