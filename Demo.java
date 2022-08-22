@@ -1,5 +1,6 @@
 public class Demo
 {
+
     static
     {
         System.out.println("inside static block");
