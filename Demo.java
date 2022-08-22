@@ -1,5 +1,3 @@
-package RamaSaiAdvancedJavaPractice.JDBC;
-
 public class Demo
 {
     static
